@@ -1,0 +1,9 @@
+<p>number-updates works!</p>
+<div>{{number$ | async}}</div>
+<button (click)="increaseNumber()">increase</button>
+<div *ngFor="let num of numbers$ | async">
+    {{num}}
+</div>
+<button (click)="reverseNumbers()">reverse</button>
+<div>{{numbers$ | async}}</div>
+<app-number-details></app-number-details>

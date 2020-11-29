@@ -1,0 +1,6 @@
+<p>number-details works!</p>
+<div>Current Number: {{number$ | async}}</div>
+<div *ngIf="numberDetails$ | async as numberDetails">
+    {{numberDetails.number}}, {{numberDetails.details}}
+</div>
+<button (click)="updateDetails()">Update</button>

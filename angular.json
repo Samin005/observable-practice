@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "observable-practice"
+  "defaultProject": "observable-practice",
+  "cli": {
+    "analytics": "16c8995b-2b8e-42e1-a66c-529027574842"
+  }
 }
